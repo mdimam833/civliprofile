@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        /* font family  --
+
+         font-family: 'Roboto', sans-serif;
+
+         --- font family  */
+
+    /* common css style star */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #b2bec3;
+}
+.comon-container {
+    width: 70%;
+    margin:30px auto;
+    background: #81ecec;
+    border-radius: 10px;
+    border: 2px solid black ;
+}
+.container {
+    padding: 20px;
+}
+.left-templet{
+    width:30%;
+    float: left;
+}
+.right-templet{
+    width:70%;
+    float: right;
+}
+h1,h2, h3,h4,h5{
+    color: #2d3436;
+}
+p{
+    color: #0c1218;
+}
+table,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,td {
+    padding: 5px;
+}
+.line {
+    border-top: 3px solid black;
+    margin-bottom: 15px;
+}
+ /* common css style end */
+ /* hearder css style star */
+ header .container::after{
+    content: '';
+    display: block;
+    clear: both;
+ }
+ header img {
+    border: 3px solid black;
+    border-radius: 50%;
+    float: left;
+    width: 150px;
+ }
+ header .header-tittle::after{
+     content: '';
+     display: block;
+     clear: both;
+ }
+ header .header-tittle {
+     float: left;
+     width: 40%;
+     margin: 40px 0 0 15px;
+ }
+ header .header-tittle h1{
+     font-size: 28px;
+ }
+ header .header-tittle h4{
+    font-size: 16px;
+    line-height: 26px;
+}
+ 
+ header .header-email {
+    float: right;
+    width: 40%;
+   
+}
+header .header-email ul {
+    list-style: none;
+}
+    /* header-email css star */
+
+header .header-email {
+    margin: 30px 0 0 0;
+    line-height: 26px;
+}
+header .header-email li a {
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+    transition: 0.5s;
+}
+header .header-email li a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+header .header-email li i {
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+    /* header-email css end */
+ /* hearder css style end */
+
+  /* main css style star */
+main {
+
+  }
+  /* mailing address css star */
+  main::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  main .mailing-address{
+      margin-bottom: 20px;
+  }
+  main .mailing-address .right-templet h3,
+  main .mailing-address .right-templet h4{
+      font-size: 16px;
+  }
+main .mailing-address::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+  /* mailing address css star */
+  /* Career address css star */
+  main .career::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+main .career{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+  /* Career address css end */
+  /* STRENGTH css star */
+  main .STRENGTH::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+main .STRENGTH{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+  /* STRENGTH css end */
+  /* education  css star */
+main .edu::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+main .right-templet::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+main .edu{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+main .edu .edu-left-tem {
+    width: 50%;
+    float: left;
+}
+main .edu .edu-right-tem {
+    width: 50%;
+    float: left;
+}
+main .edu table {
+    font-size: 13px;
+}
+main .edu table th {
+    font-size: 15px;
+    
+}
+
+  /* education  css end */
+
+ /* main css style end */
+  /* footer css style star */
+  footer{
+      padding: 20px;
+  }
+  footer .bg-black {
+      background: black;
+      padding: 10px;
+      text-align: center;
+  }
+  footer .bg-black a i {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  footer .bg-black a .fa-facebook-square {
+    color: #1a86ce ;
+    transition: 0.5s;
+  }
+  footer .bg-black a .fa-twitter-square {
+    color: #055285 ;
+    transition: 0.5s;
+  }
+  footer .bg-black a .fa-envelope {
+    color: #b81212 ;
+    transition: 0.5s;
+  }
+  footer .bg-black a i:hover {
+      color: blanchedalmond;
+      transform: scale(1.3);
+  }
+  footer .bg-black p{
+      color:blanchedalmond ;
+      margin-top: 20px; 
+  }
+ /* footer css style end */
